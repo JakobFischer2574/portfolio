@@ -26,7 +26,8 @@ jobs:
           server:   "www530.your-server.de"       # www530.your-server.de
           port:     22
           username: "jfahom"     # dein FTP-User (z. B. jfahom)
-          password: ${{ secrets.SFTP_PASSWORD }}     # dein FTP-Passwort
+          password: "JF-home#2025"     # dein FTP-Passwort
+          sftp_only: true
           local_path: 'dist'
           remote_path: 'public_html/'                # Web-Root!
           sftpArgs: '-o ConnectTimeout=5'
