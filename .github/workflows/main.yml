@@ -29,5 +29,5 @@ jobs:
           password: "JF-home#2025"     # dein FTP-Passwort
           sftp_only: true
           local_path: 'dist'
-          remote_path: './public_html'                # Web-Root!
+          remote_path: 'public_html/'                # Web-Root!
           sftpArgs: '-o ConnectTimeout=5'
