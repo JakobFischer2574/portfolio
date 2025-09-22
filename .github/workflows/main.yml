@@ -30,5 +30,4 @@ jobs:
           sftp_only: true
           local_path: 'dist/*'
           remote_path: 'public_html/'                # Web-Root!
-          delete_remote_files: true                  # Vorsicht: löscht vorher alles im public_html
           sftpArgs: '-o ConnectTimeout=5'
