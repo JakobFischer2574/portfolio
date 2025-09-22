@@ -24,9 +24,8 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: "www530.your-server.de"       # www530.your-server.de
-          username: "jfahom"     # dein FTP-User (z. B. jfahom)
           port: 22
-          password: "JF-home#2025"     # dein FTP-Passwort
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: 'dist'
           remote_path: 'public_html/'                # Web-Root!
           args: '-o ConnectTimeout=5'
