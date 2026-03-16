@@ -23,7 +23,7 @@ export default function App() {
                         <h1 className="text-4xl font-bold tracking-tight">Jakob Fischer</h1>
 
                         <p className="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-400">
-                            Eine Sammlung vereinfachter Projekt-Demos und Projektbeschreibungen.
+                            Hier finden Sie meine aktuellen und vergangenen Projekte.
                         </p>
 
                     </div>
@@ -57,17 +57,19 @@ export default function App() {
                             </a>
                             {/*Tel*/}
                             <a
-                                href="tel:+49123456789"
-                                className="
-                                text-left
-                                text-zinc-500 dark:text-zinc-700
-                                shadow-sm
-                                transition-all duration-200
-                                hover:shadow-lg
-                                hover:text-zinc-500 dark:hover:text-zinc-600
-                                ">
-                                Telefon | +49123456789
-                            </a>
+                                    href="tel:+49123456789"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="
+                                    text-left
+                                    text-zinc-500 dark:text-zinc-700
+                                    shadow-sm
+                                    transition-all duration-200
+                                    hover:shadow-lg
+                                    hover:text-zinc-500 dark:hover:text-zinc-600
+                                    ">
+                                    Telefon | +49123456789
+                                </a>
 
 
                         </div>

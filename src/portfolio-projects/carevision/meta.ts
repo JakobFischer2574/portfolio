@@ -8,4 +8,5 @@ export const meta: ProjectMeta = {
     tags: ["React", "TypeScript", "IoT"],
     featured: true,
     order: 1,
+    previewImage: "/projects/carevision/careVision.png",
 };

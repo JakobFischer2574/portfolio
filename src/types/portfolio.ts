@@ -1,4 +1,5 @@
 export type ProjectMeta = {
+    previewImage: string,
     slug: string;
     title: string;
     shortDescription: string;
