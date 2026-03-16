@@ -9,7 +9,7 @@ export default function ProjectCard({ meta, onOpen }: Props) {
     return (
         <button
             onClick={() => onOpen(meta.slug)}
-            className="group w-full rounded-2xl border border-zinc-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900"
+            className="group w-full rounded-2xl border border-zinc-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 hover:border-zinc-300 dark:hover:border-zinc-700"
         >
             <div className="mb-3 flex items-start justify-between gap-3">
                 <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
