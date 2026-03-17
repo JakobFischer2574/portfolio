@@ -3,5 +3,8 @@
 
 
 @theme {
-    --color-portfolio-accent: magenta
+    --color-portfolio-accent: #fdc50d;
+    --color-portfolio-accent-white: #CF9F02
 }
+
+@custom-variant dark (&:where(.dark, .dark *));

@@ -38,18 +38,18 @@ export default function ProjectCard({ meta, onOpen }: Props) {
               key={tag}
               className="
                       rounded-full
-                      border border-portfolio-accent/25
-                      bg-portfolio-accent/5
+                      border
+
                       px-2.5 py-1
                       text-xs
-                      text-portfolio-accent/50
+                        bg-portfolio-accent-white/15
+                        border-portfolio-accent-white/40
+                      text-portfolio-accent-white
 
-                      dark:border-portfolio-accent/15
-                      dark:bg-portfolio-accent/10
-                      dark:text-portfolio-accent/40
-                      hover:bg-portfolio-accent/15
-                      hover:border-portfolio-accent/40
-                      hover:text-portfolio-accent
+
+                      dark:bg-portfolio-accent/15
+                      dark:border-portfolio-accent/40
+                       dark:text-portfolio-accent
                       transition-all duration-200
                     "
             >
