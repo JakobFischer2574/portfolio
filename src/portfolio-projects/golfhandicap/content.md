@@ -1,24 +1,53 @@
-# Golf Handicap Rechner
-Der Golf Handicap Rechner war ein Projekt aus dem Modul Projektmanagement. 
+# Projektname
+> Kurzbeschreibung in EINEM Satz  
+> (Was ist das Projekt + warum existiert es)
 
-### Ziel
-Als Team eine Anwendung zum Berechen des eigenen Handicaps.
+---
 
-### Mein Beitrag
-Ich habe mich vor allem mit Frontend-Struktur, Statusanzeigen und der Integration von Demo-Daten beschäftigt.
+## Projektüberblick
+**Kontext:**  
+Warum wurde das Projekt gebaut? (Uni Modul / Praktikum / Sideproject / Problem lösen)
 
-### Tech Stack
-- React
-- TypeScript
-- Tailwind
-- Vite
+**Ziel:**  
+Was sollte erreicht werden?
 
-### Learnings
-- bessere Trennung von UI und Datenzugriff
-- saubere Komponentenstruktur
-- Demo-fähige Präsentation echter Projekte
+**Ergebnis:**  
+Was funktioniert jetzt konkret?
 
-### Bilder
+---
+
+## Meine Rolle & Aufgaben
+- Frontend Architektur entwickelt
+- REST API integriert
+- State Management aufgebaut
+- UI Design umgesetzt
+- Deployment Pipeline eingerichtet
+- Performance optimiert
+
+-> Wichtig: **aktive Verben + konkret**
+
+---
+
+## Architektur
+```text
+Client (React)
+   ↓
+Backend API (Node.js)
+   ↓
+Database (MongoDB)
+```
+
+---
+
+## Tech Stack
+**Frontend:** React, TypeScript, TailwindCSS  
+**Backend:** Node.js, Express  
+**Database:** MongoDB  
+**Authentication:** JWT  
+**Deployment:** Docker, GitHub Actions  
+
+
+## Screenshots / Demo
 ![Golf Handicap Rechner Home](/projects/golfhandicap/golfHandicapHome.png)
 ![Golf Handicap Rechner Kurse](/projects/golfhandicap/golfHandicap.png)
 ![Golf Handicap Rechner Login](/projects/golfhandicap/golfHandicapLogin.png)
