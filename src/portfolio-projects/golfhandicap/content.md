@@ -1,42 +1,48 @@
 ## Projektüberblick
-**Kontext:**  
-Warum wurde das Projekt gebaut? (Uni Modul / Praktikum / Sideproject / Problem lösen)
 
 **Ziel:**  
-Was sollte erreicht werden?
+Entwicklung einer webbasierten Anwendung, die Golfspielern ermöglicht, ihr Handicap nach verschiedenen Berechnungsmodellen zu berechnen und zu vergleichen. Gleichzeitig sollte im Projekt praktische Erfahrung mit agilen Methoden, insbesondere Scrum, gesammelt werden.
 
 **Ergebnis:**  
-Was funktioniert jetzt konkret?
-
+Eine funktionsfähige Webapp mit Eingabe-Interface für Spielergebnisse, automatischer Handicap-Berechnung sowie grafischer Darstellung der Entwicklung. Im Laufe der Entwicklung kamen viele weitere Features hinzu, wie das Erstellen von Golfplätzen, das Verwalten von Usern mittels Rollen oder das Erstellen einer Score Card.
+Die neuen Features wurden iterativ in kurzen Sprints umgesetzt und nach jedem Sprint als lauffähiges Inkrement integriert.
 ## Meine Rolle & Aufgaben
-- Frontend Architektur entwickelt
-- REST API integriert
-- State Management aufgebaut
-- UI Design umgesetzt
-- Deployment Pipeline eingerichtet
-- Performance optimiert
 
--> Wichtig: **aktive Verben + konkret**
+- Konzeption und Implementierung der Frontend-Architektur mit Vue.js und TypeScript
+- Entwicklung einer intuitiven Benutzeroberfläche zur Eingabe und Visualisierung von Golf-Runden
+- Integration der REST-APIs zur Berechnung und Speicherung der Handicap-Daten
+- Umsetzung von Tabellen- und Diagramm-Views zur Darstellung von Ergebnisverläufen
+- Implementierung der clientseitigen Authentifizierung die mittels JWT
+- Sicherstellung einer guten User Experience durch klare Strukturierung der Eingabemasken und Ergebnisansichten
+- Unterstützung bei Aufwandsschätzungen und technischer Planung von User Stories im Scrum-Prozess
+- Strukturierung eigener Aufgaben in Subtasks zur besseren Sprint-Planung
 
 ## Architektur
 ```text
-Client (React)
+Client (Vue.js SPA)
+   ↓ REST
+Backend API (Node.js – Berechnungslogik & Datenzugriff)
    ↓
-Backend API (Node.js)
-   ↓
-Database (MongoDB)
+Database (MongoDB – Speicherung von Runden & Handicapwerten)
 ```
 
 ## Tech Stack
-**Frontend:** React, TypeScript, TailwindCSS  
+
+**Frontend:** Vue.js, TypeScript  
 **Backend:** Node.js, Express  
 **Database:** MongoDB  
 **Authentication:** JWT  
-**Deployment:** Docker, GitHub Actions  
+**Deployment:** GitHub (Branch-based Workflow pro Sprint)  
+**Tools:** Git, Jira, Figma
+
 
 ## Screenshots / Demo
-![Golf Handicap Rechner Home](/projects/golfhandicap/golfHandicapHome.png)
+
+- Eingabeoberfläche für Spielergebnisse
+    ![Golf Handicap Rechner Home](/projects/golfhandicap/golfHandicapHome.png)
+- Seite zur Erstellung von Golfplätzen
 ![Golf Handicap Rechner Kurse](/projects/golfhandicap/golfHandicap.png)
+- Loginseite
 ![Golf Handicap Rechner Login](/projects/golfhandicap/golfHandicapLogin.png)
 
 

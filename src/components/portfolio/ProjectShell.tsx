@@ -67,7 +67,7 @@ export default function ProjectShell({
 
                          prose-h2:border-b
                          prose-h2:pb-2
-                         prose-h2:mt-12
+                         prose-h2:mt-6
                          prose-h2:mb-4
 
                          prose-h3:mt-6

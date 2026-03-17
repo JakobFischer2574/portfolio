@@ -1,12 +1,12 @@
-import type { ProjectMeta } from "../../types/portfolio";
+import type { ProjectMeta } from "../../types/portfolio.ts";
 
 export const meta: ProjectMeta = {
   slug: "golfhandicap",
   title: "Golf Handicap Rechner",
   shortDescription:
-    "Im Modul Projektmanagement haben wir in einer fünfköpfigen Gruppe eine Anwendung zur Berechnung des Golf-Handicaps entwickelt, wobei ich für die Umsetzung des Frontends verantwortlich war.",
+    "Im Rahmen des agilen Scrum-Projekts des Moduls „Projektmanagement” haben wir eine Webanwendung zur Berechnung und zum Vergleich von Golf-Handicaps nach alter und neuer Berechnungsmethode entwickelt.",
   tags: ["Vue.js", "TypeScript", "RestAPI", "Scrum", "Agile"],
-  order: 2,
+  order: 4,
   timeFrame: {
     start: "12.2024",
     end: "03.2025"
