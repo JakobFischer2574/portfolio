@@ -124,6 +124,8 @@ export default function App() {
               shortDescription={selectedProject.meta.shortDescription}
               tags={selectedProject.meta.tags}
               markdown={selectedProject.markdown}
+              timeFrameEnd={selectedProject.meta.timeFrame.end}
+              timeFrameStart={selectedProject.meta.timeFrame.start}
             />
           </div>
         )}

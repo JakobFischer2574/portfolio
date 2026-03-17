@@ -9,11 +9,11 @@ export default function ProjectCard({ meta, onOpen }: Props) {
   return (
     <button
       onClick={() => onOpen(meta.slug)}
-      className="group w-full rounded-2xl overflow-hidden border border-zinc-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 hover:border-zinc-300 dark:hover:border-zinc-700 cursor-pointer"
+      className="group w-full rounded-2xl flex flex-col overflow-hidden border border-zinc-200 bg-white text-left shadow-sm transition hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 hover:border-zinc-300 dark:hover:border-zinc-700 cursor-pointer"
     >
       {/*image*/}
 
-      <div className="overflow-hidden">
+      <div className="overflow-hidden ">
         <img
           alt="Preview Image"
           src={meta.previewImage}
@@ -22,10 +22,11 @@ export default function ProjectCard({ meta, onOpen }: Props) {
       </div>
 
       <div className="p-5">
-        <div className="mb-3 flex items-start justify-between gap-3">
+        <div className="mb-3 flex items-center justify-between  gap-3">
           <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
             {meta.title}
           </h3>
+          <p className="text-sm text-right leading-6 text-zinc-500 dark:text-zinc-500">{`${meta.timeFrame.start} bis ${meta.timeFrame.end}`}</p>
         </div>
 
         <p className="mb-4 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
