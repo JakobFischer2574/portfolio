@@ -28,16 +28,51 @@ export default function ProjectShell({
                     {tags.map((tag) => (
                         <span
                             key={tag}
-                            className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
+                            className="
+                      rounded-full
+                      border border-portfolio-accent/25
+                      bg-portfolio-accent/5
+                      px-2.5 py-1
+                      text-xs
+                      text-portfolio-accent/50
+
+                      dark:border-portfolio-accent/15
+                      dark:bg-portfolio-accent/10
+                      dark:text-portfolio-accent/40
+                      hover:bg-portfolio-accent/15
+                      hover:border-portfolio-accent/40
+                      hover:text-portfolio-accent
+                      transition-all duration-200
+                    "
                         >
               {tag}
             </span>
                     ))}
                 </div>
+
             </header>
 
             <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-                <article className="prose prose-zinc max-w-none dark:prose-invert">
+                <article className="
+                         prose prose-zinc max-w-none dark:prose-invert
+
+                         prose-headings:font-semibold
+                         prose-headings:tracking-tight
+
+                         prose-h2:border-b
+                         prose-h2:pb-2
+                         prose-h2:mt-12
+                         prose-h2:mb-4
+
+                         prose-h3:mt-6
+                         prose-h3:mb-1
+
+                         prose-p:my-3
+                         prose-p:mt-1
+                         prose-ul:my-3
+                         prose-ul:mt-1
+                         prose-li:my-1
+                  ">
                     <ReactMarkdown>{markdown}</ReactMarkdown>
                 </article>
             </div>
