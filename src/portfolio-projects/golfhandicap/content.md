@@ -33,7 +33,7 @@ Database (MongoDB – Speicherung von Runden & Handicapwerten)
 **Database:** MongoDB  
 **Authentication:** JWT  
 **Deployment:** GitHub (Branch-based Workflow pro Sprint)  
-**Tools:** Git, Jira, Figma
+**Tools:** Git, Jira, Figma, Copilot, ChatGPT
 
 
 ## Screenshots / Demo
