@@ -3,7 +3,7 @@ import type { ProjectMeta } from "../../types/portfolio.ts";
 export const meta: ProjectMeta = {
   previewImage: "/projects/bachelorthesis/bachelorThesis.png",
   slug: "bachelorthesis",
-  title: "Bachlorprojket: LED Pattern Recognition",
+  title: "Bachelorprojekt: Router LED-Mustererkennung",
   shortDescription:
     "Proof-of-Concept-System zur automatisierten Erkennung von LED-Blinkmustern an Routern mittels klassischer Bildverarbeitung und Deep Learning auf Embedded-Hardware.",
   tags: [
@@ -15,8 +15,8 @@ export const meta: ProjectMeta = {
     "Real-Time Processing",
   ],
   timeFrame: {
-    start: "2025-05",
-    end: "2025-07",
+    start: "04.2026",
+    end: "07.2026",
   },
   featured: true,
   order: 1,
