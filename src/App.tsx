@@ -39,6 +39,7 @@ export default function App() {
   }, []);
 
   const openProject = (slug: string) => {
+    window.scrollTo(0, 0);
     setSelectedSlug(slug);
     setSlugInUrl(slug);
   };
