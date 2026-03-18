@@ -1,69 +1,55 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal developer portfolio built with React, TypeScript and Tailwind CSS.  
+It presents selected projects in a structured and lightweight way, focusing on clear documentation, visual consistency and easy extensibility.
 
-Currently, two official plugins are available:
+## Concept
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Each project is represented by a minimal content structure:
 
-## Expanding the ESLint configuration
+- `meta.ts` for project metadata (title, description, tags, order)
+- `content.md` for the project description and documentation
+- optional images inside the project folder
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The portfolio application automatically discovers all projects and renders them as cards on the overview page.  
+Clicking a card opens a detailed project view where the Markdown content is rendered.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Goals
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Provide a simple and maintainable way to showcase multiple projects
+- Separate content from layout and application logic
+- Avoid backend dependencies by using static or dummy data
+- Allow fast addition of new projects without modifying core application code
+- Ensure clean visual presentation in both light and dark mode
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Tailwind Typography
+- react-markdown
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Project Structure
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+src/ 
+ components/ 
+   portfolio/ 
+ lib/ 
+ types/ 
+ portfolio-projects/ 
+   project-name/ 
+     meta.ts 
+     content.md
+
+## Adding a New Project
+
+To add a new project:
+
+1. Create a new folder inside `src/portfolio-projects/`
+2. Add a `meta.ts` file with project metadata
+3. Add a `content.md` file describing the project
+4. Optionally add images and reference them in the Markdown
+
+The project will automatically appear in the portfolio overview.

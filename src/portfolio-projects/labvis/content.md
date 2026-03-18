@@ -35,7 +35,7 @@ Microservices (Labgrid / Status / Pipelines / Auth / Device DB)
 **Architecture:** Microservices + Backend-for-Frontend  
 **Communication:** REST, GraphQL  
 **Deployment:** Docker, Docker Compose  
-**Tools:** Git, Figma
+**Tools:** Git, Figma, Copilot, ChatGPT
 
 ## Screenshots / Demo
 

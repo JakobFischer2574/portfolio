@@ -33,7 +33,7 @@ MongoDB       MySQL
 **Frontend:** Vue.js, TypeScript  
 **Backend:** Node.js, Express  
 **Database:** MongoDB, MySQL  
-**Tools:** Git
+**Tools:** Git, Copilot, ChatGPT
 
 ## Screenshots / Demo
 

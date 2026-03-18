@@ -35,7 +35,7 @@ Database (MongoDB – Event Storage & History)
 **Authentication:** Auth0
 **Real-Time Communication:** WebRTC, Server-Sent Events  
 **Deployment:** Docker, GitHub Actions  
-**Tools:** GitHub, Figma, Miro
+**Tools:** GitHub, Figma, Miro, Copilot, ChatGPT
 
 ## Screenshots
 ![CareVision Dashboard](/projects/carevision/careVisionDashboard.png)
