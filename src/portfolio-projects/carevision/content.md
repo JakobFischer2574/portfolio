@@ -38,6 +38,16 @@ Database (MongoDB – Event Storage & History)
 **Tools:** GitHub, Figma, Miro, Copilot, ChatGPT
 
 ## Screenshots
-![CareVision Dashboard](/projects/carevision/careVisionDashboard.png)
-![CareVision Detailansicht](/projects/carevision/careVisionDashboardIncident.png)
+
+- Dashboard mit aktuellen Vorfällen
+![CareVision Dashboard](/projectsWebp/carevision/careVisionDashboard.webp)
+
+- Detailansicht eines Vorfalls
+![CareVision Vorfall-Detailansicht](/projectsWebp/carevision/careVisionDashboardIncident.webp)
+
+- Live-Kameraansicht
+![CareVision Kameraansicht](/projectsWebp/carevision/careVisionCamera.webp)
+
+- Einstellungen und Konfiguration
+![CareVision Einstellungen](/projectsWebp/carevision/careVisionSettings.webp)
 

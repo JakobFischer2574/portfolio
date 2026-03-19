@@ -38,11 +38,13 @@ Database (MongoDB – Speicherung von Runden & Handicapwerten)
 
 ## Screenshots / Demo
 
-- Eingabeoberfläche für Spielergebnisse
-    ![Golf Handicap Rechner Home](/projects/golfhandicap/golfHandicapHome.png)
-- Seite zur Erstellung von Golfplätzen
-![Golf Handicap Rechner Kurse](/projects/golfhandicap/golfHandicap.png)
 - Loginseite
-![Golf Handicap Rechner Login](/projects/golfhandicap/golfHandicapLogin.png)
+![GolfHandicap Login](/projectsWebp/golfhandicap/golfHandicapLogin.webp)
+
+- Startseite mit Übersicht
+![GolfHandicap Startseite](/projectsWebp/golfhandicap/golfHandicapHome.webp)
+
+- Handicap-Berechnung und Verlauf
+![GolfHandicap Handicap-Ansicht](/projectsWebp/golfhandicap/golfHandicap.webp)
 
 

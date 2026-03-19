@@ -1,7 +1,7 @@
 import type { ProjectMeta } from "../../types/portfolio.ts";
 
 export const meta: ProjectMeta = {
-  previewImage: "/projects/bachelorthesis/bachelorThesis.png",
+  previewImage: "/projectsWebp/bachelorthesis/bachelorThesis.webp",
   slug: "bachelorthesis",
   title: "Bachelorprojekt: Router LED-Mustererkennung",
   shortDescription:
@@ -19,5 +19,5 @@ export const meta: ProjectMeta = {
     end: "07.2026",
   },
   featured: true,
-  order: 1,
+  order: 2,
 };

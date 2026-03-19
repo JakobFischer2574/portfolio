@@ -81,14 +81,15 @@ export default function App() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/jakob-fischer-74b6a8330/"
+                href="https://github.com/JakobFischer2574"
+                target="_blank"
                 className="group flex flex-col items-end leading-tight transition-transform duration-400 ease-in-out hover:scale-105"
               >
                 <span className="text-zinc-500 text-xs tracking-wide uppercase">
-                  LinkedIn
+                  GitHub
                 </span>
                 <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
-                  Jakob Fischer
+                  JakobFischer2574
                 </span>
                 <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full" ></span>
               </a>

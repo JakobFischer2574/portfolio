@@ -35,4 +35,3 @@ Web Dashboard (React)
 **Hardware:** Raspberry Pi + Camera Module  
 **Data Processing:** Benchmark Logging & Metrics Evaluation  
 **Tools:** Git
-

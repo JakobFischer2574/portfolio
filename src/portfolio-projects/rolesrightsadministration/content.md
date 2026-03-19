@@ -37,9 +37,11 @@ MongoDB       MySQL
 
 ## Screenshots / Demo
 
-- Rollen-Management Tabelle
+- Rollen- und Rechteübersicht
+![Roles & Rights Übersicht](/projectsWebp/rolesrightsadministration/rolesRightsAdministration.webp)
 
-- Permission Detail Editor
+- Formular zum Hinzufügen von Actions
+![Roles & Rights Einstellungen hinzufügen](/projectsWebp/rolesrightsadministration/rolesRrightsAdministrationAddSettings.webp)
 
-- YAML Export Funktion
-
+- Aktionen Dropdown
+  ![Roles & Rights Aktionsmenü](/projectsWebp/rolesrightsadministration/rolesRrightsAdministrationActionDropdown.webp)

@@ -39,8 +39,11 @@ Microservices (Labgrid / Status / Pipelines / Auth / Device DB)
 
 ## Screenshots / Demo
 
-- CPE Tile mit Multi-State Views (Locked / Invalid / Available)
+- CPE-Detailansicht mit zusätzlichen Informationen
+  ![LabVis CPE-Details erweitert](/projectsWebp/labvis/labVisCpeDetails2.webp)
 
-- Modularer Filterbereich mit Dropdown-, Tag- und Switch-Selectoren
+- Erweiterte CPE-Detailansicht mit Status- und Gerätedaten
+![LabVis CPE-Details](/projectsWebp/labvis/labVisCpeDetails.webp)
 
-- Geräteübersicht mit erweiterten Such- und Statusinformationen
+- Account-Ansicht mit Benutzer- und Zugriffsinformationen
+  ![LabVis Account-Ansicht](/projectsWebp/labvis/labVisAccount.webp)

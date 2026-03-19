@@ -11,6 +11,6 @@ export const meta: ProjectMeta = {
     end: "03.2026"
   },
   featured: true,
-  order: 2,
-  previewImage: "/projects/carevision/careVision.png",
+  order: 5,
+  previewImage: "/projectsWebp/carevision/careVision.webp",
 };

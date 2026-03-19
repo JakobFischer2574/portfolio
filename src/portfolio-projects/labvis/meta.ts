@@ -9,7 +9,7 @@ export const meta: ProjectMeta = {
   order: 1,
   timeFrame: {
     start: "07.2025",
-    end: "≈04.2026"
+    end: "Jetzt"
   },
-  previewImage: "/projects/labvis/labVis.png",
+  previewImage: "/projectsWebp/labvis/labVis.webp",
 };
