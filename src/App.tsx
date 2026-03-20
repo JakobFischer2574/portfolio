@@ -23,7 +23,7 @@ function setSlugInUrl(slug: string | null) {
 export default function App() {
   const projects = useMemo(() => loadProjects(), []);
   const [selectedSlug, setSelectedSlug] = useState<string | null>(() =>
-    getSlugFromUrl()
+    getSlugFromUrl(),
   );
 
   const selectedProject =
@@ -68,19 +68,6 @@ export default function App() {
           <div className="flex flex-2 items-start justify-end">
             <div className="flex flex-col items-end gap-3 text-sm">
               <a
-                href="mailto:Jakob-Fischer@telekom.de"
-                className="group flex flex-col items-end leading-tight transition-transform duration-400 ease-in-out hover:scale-105"
-              >
-                <span className="text-zinc-500 text-xs tracking-wide uppercase">
-                  Email
-                </span>
-                <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
-                  Jakob-Fischer@telekom.de
-                </span>
-                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full" ></span>
-              </a>
-
-              <a
                 href="https://github.com/JakobFischer2574"
                 target="_blank"
                 className="group flex flex-col items-end leading-tight transition-transform duration-400 ease-in-out hover:scale-105"
@@ -91,20 +78,33 @@ export default function App() {
                 <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
                   JakobFischer2574
                 </span>
-                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full" ></span>
+                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full"></span>
               </a>
 
               <a
-                href="tel:+49123456789"
+                href="tel:+4915755852165"
                 className="group flex flex-col items-end leading-tight transition-transform duration-400 ease-in-out hover:scale-105"
               >
                 <span className="text-zinc-500 text-xs tracking-wide uppercase">
                   Telefon
                 </span>
                 <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
-                  +49 123 456789
+                  +49 157 55852165
                 </span>
-                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full" ></span>
+                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full"></span>
+              </a>
+
+              <a
+                href="mailto:Jakob-Fischer@telekom.de"
+                className="group flex flex-col items-end leading-tight transition-transform duration-400 ease-in-out hover:scale-105"
+              >
+                <span className="text-zinc-500 text-xs tracking-wide uppercase">
+                  Email
+                </span>
+                <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
+                  Jakob-Fischer@telekom.de
+                </span>
+                <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full"></span>
               </a>
             </div>
           </div>

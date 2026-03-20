@@ -65,10 +65,8 @@ export default function ProjectShell({
                          prose-headings:font-semibold
                          prose-headings:tracking-tight
 
-                         prose-img:max-w-4xl
-                          prose-img:mx-auto
-                          prose-img:my-8
                           prose-img:rounded-xl
+
 
                          prose-h2:border-b
                          prose-h2:pb-2
