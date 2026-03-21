@@ -26,17 +26,17 @@ Backend API (Node.js – Berechnungslogik & Datenzugriff)
 Database (MongoDB – Speicherung von Runden & Handicapwerten)
 ```
 
-## Tech Stack
+## Tech-Stack
 
 **Frontend:** Vue.js, TypeScript  
 **Backend:** Node.js, Express  
 **Database:** MongoDB  
 **Authentication:** JWT  
 **Deployment:** GitHub (Branch-based Workflow pro Sprint)  
-**Tools:** Git, Jira, Figma, Copilot, ChatGPT
+**Tools:** Git, Jira, Figma, GitHub Copilot 
 
 
-## Screenshots / Demo
+## Screenshots
 
 - Loginseite
 ![GolfHandicap Login](/projectsWebp/golfhandicap/golfHandicapLogin.webp)
