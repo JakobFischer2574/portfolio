@@ -1,6 +1,6 @@
 **Ziel:**  
 Entwicklung einer professionellen Portfolio-Website für meine Fotografie, auf der Hochzeiten, Paarshootings und Einzelshootings ansprechend präsentiert werden können.  
-Neben dem visuellen Design lag der Fokus auf schnellen Ladezeiten, guter Auffindbarkeit über Suchmaschinen und einem möglichst automatisierten Deployment-Prozess.
+Neben dem visuellen Design lag der Fokus auf schnellen Ladezeiten und einem möglichst automatisierten Deployment-Prozess.
 
 **Ergebnis:**  
 Eine öffentlich erreichbare Portfolio-Website mit responsivem Layout, optimierten Bilddateien und performanter Darstellung auch bei vielen hochauflösenden Fotos.  
@@ -12,7 +12,6 @@ Das Deployment wurde zunächst über einen klassischen Webserver per SSH automat
 - Gestaltung und Optimierung des UI/UX-Designs für fotografische Inhalte
 - Reduktion von Ladezeiten durch Konvertierung und Optimierung großer Bildmengen in WebP
 - Verbesserung der Frontend-Performance für bildlastige Seiten
-- Umsetzung von SEO-Maßnahmen zur besseren Auffindbarkeit über Google
 - Einrichtung einer GitHub-Actions-Pipeline zum automatischen Build und Deployment nach jedem Push
 - Deployment zunächst auf einem öffentlichen Webserver per SSH, später Migration zu Cloudflare Pages
 - Laufende Pflege und Erweiterung der Website-Inhalte
