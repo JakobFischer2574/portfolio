@@ -6,7 +6,7 @@ Neben dem visuellen Design lag der Fokus auf schnellen Ladezeiten, guter Auffind
 Eine öffentlich erreichbare Portfolio-Website mit responsivem Layout, optimierten Bilddateien und performanter Darstellung auch bei vielen hochauflösenden Fotos.  
 Das Deployment wurde zunächst über einen klassischen Webserver per SSH automatisiert und später auf Cloudflare Pages migriert.
 
-## Meine Rolle & Aufgaben
+## Meine Aufgaben
 
 - Anpassung und Weiterentwicklung einer Vue.js-basierten Website-Vorlage mit TypeScript
 - Gestaltung und Optimierung des UI/UX-Designs für fotografische Inhalte
@@ -19,9 +19,7 @@ Das Deployment wurde zunächst über einen klassischen Webserver per SSH automat
 
 ## Architektur
 ```text  
-Client (Vue.js / TypeScript)  
-↓  
-Static Site Build  
+Client (Vue.js / TypeScript)    
 ↓  
 Deployment Pipeline (GitHub Actions)  
 ↓  
@@ -34,10 +32,11 @@ Hosting (initially Strato via SSH, later Cloudflare Pages)
 **Styling:** CSS / Template Customization  
 **Performance:** WebP Image Optimization  
 **Deployment:** GitHub Actions, SSH, Cloudflare Pages  
-**SEO:** Metadata, indexability, search optimization  
 **Tools:** Git, Copilot
 
-## Screenshots / Demo
+## Link & Screenshots
+
+[Zum Foto-Portfolio](https://photography.jf-homelab.de/)
 
 - Startseite mit Hero-Section und Galerie
 ![Photography Startseite](/projectsWebp/photography/photography.webp)
