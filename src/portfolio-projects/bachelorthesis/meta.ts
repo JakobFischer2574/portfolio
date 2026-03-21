@@ -5,7 +5,7 @@ export const meta: ProjectMeta = {
   slug: "bachelorthesis",
   title: "Bachelorprojekt: Router LED-Mustererkennung",
   shortDescription:
-    "Proof-of-Concept-System zur automatisierten Erkennung von LED-Blinkmustern an Routern mittels klassischer Bildverarbeitung und Deep Learning auf Embedded-Hardware.",
+    "Proof-of-Concept-System zur automatisierten Erkennung von LED-Satusmustern an Routern mittels klassischer Bildverarbeitung und Deep Learning auf Embedded-Hardware.",
   tags: [
     "Computer Vision",
     "Deep Learning",
