@@ -25,7 +25,7 @@ Deployment Pipeline (GitHub Actions)
 Hosting (initially Strato via SSH, later Cloudflare Pages)
 ````
 
-## Tech Stack
+## Tech-Stack
 
 **Frontend:** Vue.js, TypeScript  
 **Styling:** CSS / Template Customization  
