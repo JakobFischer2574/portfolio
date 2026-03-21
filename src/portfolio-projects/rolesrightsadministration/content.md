@@ -6,15 +6,13 @@ Ablösung einer statischen Wiki-Tabelle zur Verwaltung von Rollen und Berechtigu
 **Ergebnis:**  
 Zwei lauffähige Prototypen mit identischem Frontend und abstrahiertem Backend wurden umgesetzt. Die Anwendung ermöglicht das Anzeigen, Erstellen, Bearbeiten und Löschen von Rollen, Tiles und Permissions sowie die Generierung der benötigten YAML-Konfiguration für nachgelagerte Systeme.
 
-## Meine Rolle & Aufgaben (Solo Frontend Owner)
+## Meine Aufgaben
 
 - Konzeption und Implementierung der Frontend-Architektur mit Vue.js und TypeScript
-- Entwicklung einer minimalistischen, performanten UI zur Verwaltung von Rollen- und Berechtigungsstrukturen
+- Entwicklung einer performanten UI zur Verwaltung von Rollen- und Berechtigungsstrukturen
 - Integration der CRUD-APIs zur Datenanzeige und Manipulation
-- Aufbau eines konsistenten State-Management-Flows für Tabellen- und Detailansichten
-- Umsetzung von Formular-Flows für Insert- und Update-Operationen
-- Optimierung der Rendering-Performance bei großen Datensätzen
-- Unterstützung bei Architekturentscheidungen zur Backend-Abstraktion zwischen MongoDB und MySQL
+- Umsetzung der Backend-Abstraktion zwischen MongoDB und MySQL
+- Evaluation zwischen MongoDB und MySQL: Für dieses Projekt eignet sich MongoDB besser.
 
 ## Architektur
 ```text
@@ -28,14 +26,14 @@ MongoDB       MySQL
 (JSON Model)  (Relational Schema)
 ```
 
-## Tech Stack
+## Tech-Stack
 
 **Frontend:** Vue.js, TypeScript  
 **Backend:** Node.js, Express  
 **Database:** MongoDB, MySQL  
 **Tools:** Git, Copilot, ChatGPT
 
-## Screenshots / Demo
+## Screenshots
 
 - Rollen- und Rechteübersicht
 ![Roles & Rights Übersicht](/projectsWebp/rolesrightsadministration/rolesRightsAdministration.webp)
