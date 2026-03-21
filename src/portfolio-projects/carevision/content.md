@@ -11,7 +11,7 @@ Ein funktionierender Proof-of-Concept, der Live-Videodaten analysiert, erkannte 
 - Konzeption und Umsetzung der Frontend-Architektur mit React und TypeScript
 - Entwicklung eines Dashboard-Interfaces zur Anzeige von Vorfällen
 - Integration der Rest Backend-APIs
--  Aufbau einer Server-Sent-Events-Schnittstelle zur Echtzeit-Benachrichtigung über erkannte Vorfälle
+- Aufbau einer Server-Sent-Events-Schnittstelle zur Echtzeit-Benachrichtigung über erkannte Vorfälle
 - Implementierung einer WebRTC-basierten Kameraübertragung zur latenzarmen Übermittlung von Videoframes
 - Umsetzung der Authentifizierung mit Auth0 zur sicheren Benutzerverwaltung
 - Unterstützung bei der Integration des Computer-Vision-Algorithmus durch Entwicklung von Kontroll- und Interaktionsmechanismen in den Einstellungen
@@ -27,7 +27,7 @@ YOLO11n-Pose Modell + Fall Detection Algorithmus
 Database (MongoDB – Event Storage & History)
 ```
 
-## Tech Stack
+## Tech-Stack
 
 **Frontend:** React, TypeScript
 **Backend:** Node.js, Express  
@@ -35,9 +35,11 @@ Database (MongoDB – Event Storage & History)
 **Authentication:** Auth0
 **Real-Time Communication:** WebRTC, Server-Sent Events  
 **Deployment:** Docker, GitHub Actions  
-**Tools:** GitHub, Figma, Miro, Copilot, ChatGPT
+**Tools:** GitHub, Figma, Miro, Copilot
 
-## Screenshots
+## Link & Screenshots
+
+[Projekt Dokumentation](https://carevision.viewdns.net/docs)
 
 - Dashboard mit aktuellen Vorfällen
 ![CareVision Dashboard](/projectsWebp/carevision/careVisionDashboard.webp)
