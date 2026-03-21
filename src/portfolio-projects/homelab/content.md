@@ -6,9 +6,9 @@ Im Fokus standen zunächst Container-Orchestrierung mit Kubernetes auf einem Ras
 
 **Ergebnis:**  
 Eine zentral verwaltete Homelab-Umgebung mit virtuellen Maschinen und Containern für Home Assistant, TrueNAS, Obsidian-Synchronisierung, Reverse Proxy und lokale LLM-Nutzung.  
-Der sichere externe Zugriff wurde über Tailscale und WireGuard-basierte Tunnel umgesetzt, sodass interne Dienste kontrolliert auch außerhalb des Heimnetzes erreichbar sind.
+Der sichere externe Zugriff wurde über Tailscale und WireGuard-basierte Tunnel umgesetzt, sodass interne Dienste kontrolliert auch außerhalb des Heimnetzes erreichbar sind. Um sie öffentlich erreichbar zu machen, werden Webseiten wie dieses Portfolio als Subdomain über die Claudflare Pages veröffentlicht.
 
-## Meine Rolle & Aufgaben
+## Meine Aufgaben
 
 - Konzeption und schrittweiser Ausbau der gesamten Homelab-Architektur vom Raspberry Pi bis zur Proxmox-Plattform
 - Aufbau eines ersten Kubernetes-Setups auf Raspberry-Pi-Hardware zur eigenen Weiterbildung im Bereich Container-Orchestrierung
@@ -39,10 +39,10 @@ Proxmox Host
       └─ weitere Self-Hosted Apps
 ```
 
-## Tech Stack
+## Tech-Stack
 
 **Infrastructure:** Proxmox, Raspberry Pi, Dell Server  
-**Virtualization:** Proxmox VMs, Container-based Services  
+**Virtualization:** Proxmox VMs, Container-based Services(LXC)  
 **Orchestration:** Kubernetes  
 **Self-Hosting:** Home Assistant, TrueNAS, CouchDB, OpenWebUI, Ollama, Nginx Proxy Manager  
 **Networking & Security:** Tailscale, WireGuard, Custom Domain  
