@@ -48,7 +48,7 @@ Proxmox Host
 **Networking & Security:** Tailscale, WireGuard, Custom Domain  
 **Tools:** Docker, Git, Copilot
 
-## Screenshots / Demo
+## Screenshots
 
 - Proxmox-Übersicht mit VMs und Containern
 ![Homelab Proxmox Übersicht](/projectsWebp/homelab/homelab.webp)
