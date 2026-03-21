@@ -27,7 +27,7 @@ BFF (Nitro – API Aggregation & Security Layer)
 Microservices (Labgrid / Status / Pipelines / Auth)
 ```
 
-## Tech Stack
+## Tech-Stack
 
 **Frontend:** React, TypeScript, TailwindCSS  
 **BFF:** Nitro  
@@ -36,7 +36,7 @@ Microservices (Labgrid / Status / Pipelines / Auth)
 **Deployment:** Docker, Docker Compose  
 **Tools:** Git, Figma, Copilot, ChatGPT
 
-## Screenshots / Demo
+## Screenshots
 
 - CPE-Detailansicht mit zusätzlichen Informationen
   ![LabVis CPE-Details erweitert](/projectsWebp/labvis/labVisCpeDetails2.webp)
