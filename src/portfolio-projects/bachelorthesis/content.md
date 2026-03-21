@@ -5,14 +5,13 @@ Entwicklung und Evaluation eines visuellen Erkennungssystems zur Analyse von LED
 Im Fokus steht der Vergleich eines algorithmischen Computer-Vision-Ansatzes mit datengetriebenen Deep-Learning-Modellen hinsichtlich Genauigkeit, Latenz und Ressourcenverbrauch auf ressourcenbeschränkter Hardware.
 
 
-## Meine Rolle & Aufgaben
+## Voraussichtliche Aufgaben
 
-- Konzeption und Implementierung einer Weboberfläche zur Steuerung und Visualisierung der Testläufe
-- Integration der Bilderkennungs-Pipelines zur Anzeige von Erkennungsresultaten in Echtzeit
-- Entwicklung eines Datenerfassungs-Flows zur Speicherung von Messwerten (Accuracy, FPS, Ressourcenverbrauch)
+- Konzeption, Training und Testen eines Deep-Learning-Modells
+- Konzeption, Implementierung und Testen eines algorithmischen Computer-Vision-Ansatzes 
 - Aufbau eines reproduzierbaren Versuchs-Setups mit Raspberry Pi und Kamera
 - Implementierung von Vergleichslogik zwischen Soll-Blinkmustern und erkannten Mustern
-- Unterstützung bei Modellintegration und Optimierung für Embedded-Hardware
+- Konzeption und Implementierung einer Weboberfläche zur Steuerung und Visualisierung der Testläufe
 - Auswertung und Visualisierung der Benchmark-Ergebnisse
 
 ## Mögliche Architektur
@@ -27,11 +26,10 @@ Web Dashboard (React)
 
 ```
 
-## Möglicher Tech Stack
+## Möglicher Tech-Stack
 
 **Frontend:** React, TypeScript, TailwindCSS  
 **Backend:** Node.js  
-**CV / ML:** OpenCV / CNN Model  
+**CV / ML:** OpenCV / Ultralytics YOLO26  
 **Hardware:** Raspberry Pi + Camera Module  
-**Data Processing:** Benchmark Logging & Metrics Evaluation  
-**Tools:** Git
+**Tools:** Git, Copilot
