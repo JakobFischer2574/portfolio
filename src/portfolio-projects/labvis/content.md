@@ -13,7 +13,7 @@ Das Frontend kommuniziert über ein maßgeschneidertes BFF mit mehreren Microser
 -  Gestaltung der UI(High-Fi Figma-Prototyp auf Basis von Low-Fi-Wireframes)
 - Konzeption und Implementierung der React-SPA Architektur
 - Entwicklung eines Backend-for-Frontend mit Nitro zur Aggregation von REST- und GraphQL-APIs
-- Aufbau wiederverwendbarer UI-Komponenten (z. B. modulare Selector-Inputs und komplexe CPE-Tiles)
+- Aufbau wiederverwendbarer UI-Komponenten zur schnellen Anpassung des Frontends
 - Implementierung performanter Filter- und Suchlogik für große Gerätemengen
 - Integration mehrerer Microservices zur Anzeige von Status-, Pipeline- und Labgrid-Daten
 - Verbesserung der Wartbarkeit durch klare Komponentenstruktur und Utility-First Styling mit Tailwind
