@@ -102,7 +102,7 @@ export default function App() {
                   Email
                 </span>
                 <span className="text-right text-portfolio-accent-white dark:text-portfolio-accent">
-                  Jakob-Fischer@telekom.de
+                  Jako.fischer@outlook.de
                 </span>
                 <span className="absolute -bottom-[0px] left-0 w-0 transition-all duration-300 h-[1px] dark:bg-portfolio-accent bg-portfolio-accent-white group-hover:w-full"></span>
               </a>
